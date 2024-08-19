@@ -65,7 +65,7 @@ const OnlineDelivery = () => {
                     ))}
                 </div>
                 {isFixed && (<NavLink to='search'>
-                    <div className="relative">
+                    <div className="relative header-visibility">
                         <input
                             type="text"
                             placeholder="Search..."
