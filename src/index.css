@@ -4,10 +4,10 @@
 .black-overlay{
    background-color: rgba(0, 0, 0, 0.7);
 }
-.image-overlay{
-   background: linear-gradient(to bottom,rgba(255, 255, 255, 0.105)60%,rgba(0,0,0,1));
-   /* background-color: rgba(0, 0, 0, 0.352); */
+.image-overlay {
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.105) 60%, rgba(0, 0, 0, 1));
 }
+
 .container-help{
    display: grid;
    grid-template-columns: 1fr 4fr;
