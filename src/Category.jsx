@@ -53,7 +53,7 @@ const Category = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex overflow-x-auto">
+            <div className="flex slider overflow-x-auto">
                 {category.map((val, index) => (
                     <div
                         key={index}

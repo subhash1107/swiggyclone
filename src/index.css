@@ -12,6 +12,9 @@
    display: grid;
    grid-template-columns: 1fr 4fr;
 }
+.slider{
+   scrollbar-width: none;
+}
 @media (max-width:450px) {
    .header-visibility{
       display: none;

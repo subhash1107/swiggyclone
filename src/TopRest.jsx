@@ -40,7 +40,7 @@ const TopRest = () => {
                     </div>
                 </div>
             </div>
-            <div className=" overflow-x-auto  flex gap-5">
+            <div className=" overflow-x-auto slider flex gap-5">
             {data.map((val,index)=>{
                 return(<div
                 style={{ transform: `translateX(-${slide * 100}%)` }}>
