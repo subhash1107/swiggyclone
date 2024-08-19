@@ -54,7 +54,7 @@ const OnlineDelivery = () => {
                 className={`${isFixed ? 'fixed py-2 top-0 left-0 right-0 bg-white z-[100]' : ''} flex justify-between`}
                 style={isFixed ? { width: 'inherit', maxWidth: '1300px', margin: '0 auto' } : {}}
             >
-                <div className="flex gap-5 overflow-x-auto">
+                <div className="flex gap-5 slider overflow-x-auto">
                     {Links.map((val, index) => (
                         <button 
                             key={index}
